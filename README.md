@@ -1,6 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Abu Amar - Personal Portfolio
 
-## Getting Started
+A modern, responsive personal portfolio website built with Next.js 15, TypeScript, and Tailwind CSS.
+
+## 🚀 Features
+
+- **Modern Design**: Clean and professional interface
+- **Responsive**: Works perfectly on all devices
+- **Fast Performance**: Built with Next.js 15 and optimized for speed
+- **TypeScript**: Type-safe development experience
+- **Tailwind CSS**: Utility-first styling for rapid development
+
+## 🛠 Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Development**: ESLint for code quality
+- **Font**: Geist font family optimized by Vercel
+
+## 📋 Portfolio Sections
+
+- **Hero**: Personal introduction and call-to-action
+- **About**: Background and personal story
+- **Skills**: Technical skills and expertise
+- **Projects**: Showcase of work and projects
+- **Contact**: Contact information and social links
+
+## 🚀 Getting Started
 
 First, run the development server:
 
@@ -18,19 +44,39 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+abu-amar/
+├── src/
+│   ├── app/          # App Router pages
+│   ├── components/   # Reusable components
+│   └── types/        # TypeScript type definitions
+├── public/           # Static assets
+└── ...config files
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Build and Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To build the project for production:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+npm start
+```
 
-## Deploy on Vercel
+## 📝 Development Guidelines
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Use TypeScript for all components and utilities
+- Follow Next.js App Router conventions
+- Implement responsive design with Tailwind CSS
+- Use semantic HTML for accessibility
+- Keep components modular and reusable
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📧 Contact
+
+Feel free to reach out for collaborations or opportunities!
+
+---
+
+Built with ❤️ by Abu Amar
