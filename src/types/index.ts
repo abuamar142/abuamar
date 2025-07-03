@@ -1,7 +1,7 @@
 export interface SkillProps {
   name: string;
-  level?: 'Beginner' | 'Intermediate' | 'Advanced' | 'Expert';
-  category?: 'Frontend' | 'Backend' | 'Mobile' | 'DevOps' | 'Database' | 'Design';
+  level?: "Beginner" | "Intermediate" | "Advanced" | "Expert";
+  category?: "Frontend" | "Backend" | "Mobile" | "DevOps" | "Database" | "Design";
 }
 
 export interface ProjectProps {
