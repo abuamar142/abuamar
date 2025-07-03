@@ -48,7 +48,7 @@ file.
 ## 📁 Project Structure
 
 ```
-abu-amar/
+abuamar/
 ├── src/
 │   ├── app/          # App Router pages
 │   ├── components/   # Reusable components
