@@ -11,59 +11,65 @@ export function ProjectsSection() {
   const projects: ProjectProps[] = [
     {
       id: "1",
-      title: "E-Commerce Mobile App",
+      title: "Coffee Plant Disease Detection App",
       description:
-        "A comprehensive mobile application for online shopping with features like user authentication, product catalog, shopping cart, and secure payment integration.",
-      technologies: ["React Native", "Firebase", "Redux", "Stripe API", "AsyncStorage"],
+        "Aplikasi deteksi penyakit tumbuhan kopi melalui image classification menggunakan teknologi AI. Proyek akhir Bangkit Academy dengan tim multidisiplin (Mobile, Cloud, ML).",
+      technologies: [
+        "Kotlin",
+        "Jetpack Compose",
+        "Machine Learning",
+        "TensorFlow",
+        "Cloud Computing",
+      ],
       featured: true,
       githubUrl: "https://github.com/abuamar142",
-      demoUrl: "https://example.com/demo",
+      demoUrl: "#",
     },
     {
       id: "2",
-      title: "Task Management System",
+      title: "Full-Stack Project Refactory",
       description:
-        "A web-based task management application with team collaboration features, real-time updates, and project tracking capabilities.",
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io", "JWT"],
+        "Proyek full-stack yang dikembangkan selama magang di Refactory, mencakup aplikasi mobile (Flutter), web (React), dan backend (Supabase) dengan CI/CD pipeline.",
+      technologies: ["Flutter", "React", "Supabase", "GitHub Actions", "C4 Model"],
       featured: true,
       githubUrl: "https://github.com/abuamar142",
-      demoUrl: "https://example.com/demo",
+      demoUrl: "#",
     },
     {
       id: "3",
-      title: "Weather App",
+      title: "PERMIKOMNAS Merchandise System",
       description:
-        "A beautiful weather application with location-based forecasts, interactive maps, and detailed weather information for multiple cities.",
-      technologies: ["Flutter", "Dart", "OpenWeatherMap API", "SQLite"],
+        "Sistem manajemen produksi dan distribusi merchandise organisasi PERMIKOMNAS, dari perencanaan hingga distribusi untuk tingkat wilayah.",
+      technologies: ["Project Management", "Google Spreadsheet", "Financial Management"],
       githubUrl: "https://github.com/abuamar142",
-      demoUrl: "https://example.com/demo",
+      demoUrl: "#",
     },
     {
       id: "4",
-      title: "Social Media Dashboard",
+      title: "Komplek Financial Management",
       description:
-        "A comprehensive dashboard for managing multiple social media accounts with analytics, post scheduling, and engagement tracking.",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Chart.js", "PostgreSQL"],
+        "Sistem pengelolaan keuangan harian dan bulanan untuk Komplek Madrasah Huffadh dengan dokumentasi transaksi terstruktur.",
+      technologies: ["Google Spreadsheet", "Financial Analysis", "Reporting"],
       githubUrl: "https://github.com/abuamar142",
-      demoUrl: "https://example.com/demo",
+      demoUrl: "#",
     },
     {
       id: "5",
-      title: "Restaurant Ordering System",
+      title: "HMIF Open Recruitment System",
       description:
-        "A complete restaurant ordering system with menu management, order tracking, and payment integration for both customers and restaurant owners.",
-      technologies: ["React Native", "Node.js", "Express", "MongoDB", "PayPal API"],
+        "Sistem rekrutmen anggota baru HMIF dengan alur seleksi dan koordinasi antar panitia yang terstruktur dan efisien.",
+      technologies: ["Event Management", "Organizational Tools", "Google Forms"],
       featured: true,
       githubUrl: "https://github.com/abuamar142",
     },
     {
       id: "6",
-      title: "Personal Finance Tracker",
+      title: "Personal Portfolio Website",
       description:
-        "A mobile app for tracking personal expenses, income, and savings with categorization, budget planning, and financial insights.",
-      technologies: ["Flutter", "Firebase", "Chart.js", "SQLite", "Provider"],
+        "Website portfolio personal yang dibangun dengan Next.js 15, TypeScript, dan Tailwind CSS dengan fitur dark/light mode dan desain responsif.",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Responsive Design"],
       githubUrl: "https://github.com/abuamar142",
-      demoUrl: "https://example.com/demo",
+      demoUrl: "#",
     },
   ];
 

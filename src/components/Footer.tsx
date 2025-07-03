@@ -11,13 +11,13 @@ export function Footer() {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "#",
+      href: "https://www.linkedin.com/in/abu-amar/",
       color: "hover:text-blue-600",
     },
     {
       name: "Instagram",
       icon: Instagram,
-      href: "https://www.instagram.com/official_platag/",
+      href: "https://www.instagram.com/abuuamar_/",
       color: "hover:text-pink-600",
     },
     {

@@ -30,17 +30,21 @@ export function AboutSection() {
           <div className='space-y-6'>
             <div>
               <h3 className='text-2xl font-semibold text-slate-900 dark:text-white mb-4'>
-                Hello! I&apos;m Abu Amar Al Badawi
+                Hello! I&apos;m M. Abu Amar Al Badawi
               </h3>
               <p className='text-slate-600 dark:text-slate-300 leading-relaxed mb-6'>
-                A passionate Full Stack Developer with a strong foundation in both mobile and web
-                development. I specialize in creating user-friendly applications using modern
-                technologies like React Native, Flutter, Node.js, and various web frameworks.
+                Mahasiswa Informatika semester 8 di Universitas Jenderal Achmad Yani Yogyakarta
+                dengan minat kuat di bidang Mobile Development. Memiliki pengalaman magang hampir
+                satu tahun sebagai Full-Stack Software Engineer di software house Refactory, serta
+                menjadi peserta program Bangkit 2024 (Google x Kampus Merdeka) dengan learning path
+                Mobile Development.
               </p>
               <p className='text-slate-600 dark:text-slate-300 leading-relaxed'>
-                My journey in software development started with a curiosity about how technology can
-                solve real-world problems. I&apos;m constantly learning new technologies and best
-                practices to deliver high-quality solutions that make a difference.
+                Terbiasa mengembangkan aplikasi menggunakan Flutter, Supabase, dan React, serta
+                memahami alur pengembangan perangkat lunak dari perencanaan (C4 Model, API Contract)
+                hingga deployment (GitHub Actions). Aktif dalam organisasi kampus dan nasional
+                seperti HMIF dan PERMIKOMNAS, serta memiliki pengalaman manajerial di bidang
+                keuangan dan kepanitiaan.
               </p>
             </div>
 
@@ -50,7 +54,7 @@ export function AboutSection() {
                 <GraduationCap className='h-5 w-5 text-blue-600' />
                 <div>
                   <p className='text-sm text-slate-500 dark:text-slate-400'>Education</p>
-                  <p className='font-medium text-slate-900 dark:text-white'>Computer Science</p>
+                  <p className='font-medium text-slate-900 dark:text-white'>Informatika S1</p>
                 </div>
               </div>
 
@@ -58,7 +62,7 @@ export function AboutSection() {
                 <MapPin className='h-5 w-5 text-green-600' />
                 <div>
                   <p className='text-sm text-slate-500 dark:text-slate-400'>Location</p>
-                  <p className='font-medium text-slate-900 dark:text-white'>Indonesia</p>
+                  <p className='font-medium text-slate-900 dark:text-white'>Bantul, Indonesia</p>
                 </div>
               </div>
 
@@ -66,7 +70,7 @@ export function AboutSection() {
                 <Calendar className='h-5 w-5 text-purple-600' />
                 <div>
                   <p className='text-sm text-slate-500 dark:text-slate-400'>Experience</p>
-                  <p className='font-medium text-slate-900 dark:text-white'>3+ Years</p>
+                  <p className='font-medium text-slate-900 dark:text-white'>~1 Year</p>
                 </div>
               </div>
 
@@ -74,7 +78,7 @@ export function AboutSection() {
                 <div className='h-5 w-5 bg-gradient-to-r from-blue-600 to-purple-600 rounded'></div>
                 <div>
                   <p className='text-sm text-slate-500 dark:text-slate-400'>Specialization</p>
-                  <p className='font-medium text-slate-900 dark:text-white'>Full Stack Dev</p>
+                  <p className='font-medium text-slate-900 dark:text-white'>Mobile Development</p>
                 </div>
               </div>
             </div>

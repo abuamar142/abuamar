@@ -15,17 +15,17 @@ export function HeroSection() {
 
         {/* Name and Title */}
         <h1 className='text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent'>
-          Abu Amar Al Badawi
+          M. Abu Amar Al Badawi
         </h1>
 
         <p className='text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-4'>
-          Full Stack Developer
+          Software Engineer
         </p>
 
         <p className='text-lg text-slate-500 dark:text-slate-400 mb-8 max-w-3xl mx-auto'>
-          Passionate software developer with expertise in mobile and web development. Creating
-          innovative digital solutions with modern technologies like React Native, Flutter, and
-          Node.js.
+          Mahasiswa Informatika semester 8 di Universitas Jenderal Achmad Yani Yogyakarta dengan
+          minat kuat di bidang Mobile Development. Memiliki pengalaman magang hampir satu tahun
+          sebagai Full-Stack Software Engineer dan peserta program Bangkit 2024.
         </p>
 
         {/* CTA Buttons */}

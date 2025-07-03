@@ -36,14 +36,14 @@ export function ContactSection() {
     {
       icon: Phone,
       label: "Phone",
-      value: "+62 812-3456-7890",
-      href: "tel:+6281234567890",
+      value: "+62 815 2047 1914",
+      href: "tel:+6281520471914",
       color: "text-green-600",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Jakarta, Indonesia",
+      value: "Bantul, Indonesia",
       href: "#",
       color: "text-purple-600",
     },
