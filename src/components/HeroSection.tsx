@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ArrowDown, Download } from "lucide-react";
 
 export function HeroSection() {
@@ -7,8 +8,15 @@ export function HeroSection() {
         {/* Profile Image */}
         <div className='mb-8'>
           <div className='w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1'>
-            <div className='w-full h-full rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center'>
-              <span className='text-3xl font-bold text-slate-600 dark:text-slate-300'>AA</span>
+            <div className='w-full h-full rounded-full overflow-hidden'>
+              <Image
+                src='/assets/profile.jpg'
+                alt='M. Abu Amar Al Badawi'
+                width={128}
+                height={128}
+                className='w-full h-full object-cover'
+                priority
+              />
             </div>
           </div>
         </div>

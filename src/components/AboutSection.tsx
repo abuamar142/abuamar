@@ -1,4 +1,5 @@
 import { MapPin, Calendar, GraduationCap } from "lucide-react";
+import Image from "next/image";
 
 export function AboutSection() {
   return (
@@ -14,14 +15,22 @@ export function AboutSection() {
         </div>
 
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
-          {/* Left side - Image placeholder */}
+          {/* Left side - Image */}
           <div className='relative'>
-            <div className='aspect-square rounded-2xl bg-gradient-to-br from-blue-100 to-purple-100 dark:from-slate-800 dark:to-slate-700 flex items-center justify-center'>
+            <div className='aspect-square rounded-2xl bg-gradient-to-br from-blue-100 to-purple-100 dark:from-slate-800 dark:to-slate-700 p-8 flex items-center justify-center'>
               <div className='text-center'>
-                <div className='w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center mb-4'>
-                  <span className='text-4xl font-bold text-white'>AA</span>
+                <div className='w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1 mb-4'>
+                  <div className='w-full h-full rounded-full overflow-hidden'>
+                    <Image
+                      src='/assets/profile.jpg'
+                      alt='M. Abu Amar Al Badawi'
+                      width={192}
+                      height={192}
+                      className='w-full h-full object-cover'
+                    />
+                  </div>
                 </div>
-                <p className='text-slate-600 dark:text-slate-400'>Professional Photo</p>
+                <p className='text-slate-600 dark:text-slate-400'>Software Engineer</p>
               </div>
             </div>
           </div>

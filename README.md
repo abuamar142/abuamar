@@ -50,10 +50,12 @@ file.
 ```
 abuamar/
 ├── src/
-│   ├── app/          # App Router pages
-│   ├── components/   # Reusable components
-│   └── types/        # TypeScript type definitions
-├── public/           # Static assets
+│   ├── app/            # App Router pages
+│   ├── components/     # Reusable components
+│   └── types/          # TypeScript type definitions
+├── public/
+│   └── assets/         # Images and static assets
+│       └── profile.jpg # Profile photo
 └── ...config files
 ```
 
